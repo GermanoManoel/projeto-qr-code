@@ -7,32 +7,31 @@
 }
 
 body{
-    background-color:hsla(228, 45%, 44%, 0.37);
+    background-color:hsla(212, 45%, 49%);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div.caixa{
-    height:430px;
-    min-width:290px;
+    min-height:28rem;
+    width:auto;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: 50%;
+    left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    border-radius: 10px;
+    border-radius: 5%;
     box-shadow:3px 3px 6px rgba(3, 3, 3, 0.404);
-
+    transition: 1s;
 }
 
 div.caixa:hover{
     transform: translate(-50%, -50%) scale(105%);
-    transition: 1s;
 }
 
 img{
-    height: 270px;
+    height: 16rem;
     width: auto;
     display: block;
     margin: 20px auto;
@@ -42,13 +41,14 @@ img{
 h3{
     text-align: center;
     font-weight: bold;
+    margin-bottom:1rem;
 }
 
 p{
     text-align: center;
-    margin-top:10px;
     width: 280px;
     font-size: 12px;
+    margin-bottom:1rem;
 }
 
 a{
@@ -59,5 +59,5 @@ a{
 }
 
 a:hover{
-    color:hsl(228, 45%, 44%) ;
+    color:hsl(228, 45%, 44%);
 }
